@@ -48,13 +48,12 @@ function CardForm() {
           {todos.map(todo => (
             <li key={todo.id}>
               <span
-                // className={todo.completed ? "todo-completed" : undefined}
-                // onClick={() => toggleTodo(todo.id)}
+
               >
                 {todo.text}
               </span>
               <span 
-              // className="delete-btn" onClick={() => removeTodo(todo.id)}
+            
               >
                 
               </span>
