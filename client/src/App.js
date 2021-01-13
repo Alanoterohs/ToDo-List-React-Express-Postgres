@@ -66,23 +66,13 @@ function CardForm() {
   );
 };
 
-function Task () {
- return (
-  <div>
-    Hello
-  </div>
- );
-}
+
 
 function App() {
-
-
-
 
   return (
     <div className="App">
       <CardForm/>
-      
     </div>
   );
 }
